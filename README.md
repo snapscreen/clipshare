@@ -3,18 +3,18 @@
 Reach ClipShare website via https://snapscreen.com.
 The website is hosted on netlify and built with GatsbyJS.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ee345116-dce6-4643-bc59-8c514b5a6ce1/deploy-status)](https://app.netlify.com/sites/snapodds/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8ebfd963-0f62-4406-ada4-cf2fe1870f03/deploy-status)](https://app.netlify.com/sites/snapscreen-clipshare/deploys)
 
 ## Development Stack
 
-| What?           | Details / Where?                                          |
-| --------------- | --------------------------------------------------------- |
-| Framework       | [GatsbyJS](https://www.gatsbyjs.com/)                     |
-| Deployment      | https://snapodds.netlify.app/ fully automated GitOps Flow |
-| Content (CMS)   | [Contentful](https://app.contentful.com/)                 |
-| Form Submission | [Hubspot](https://hubspot.com/)                           |
-| Package-Manager | `yarn`                                                    |
-| Language        | `Typescript`                                              |
+| What?           | Details / Where?                                                      |
+| --------------- | --------------------------------------------------------------------- |
+| Framework       | [GatsbyJS](https://www.gatsbyjs.com/)                                 |
+| Deployment      | https://snapscreen-clipshare.netlify.app/ fully automated GitOps Flow |
+| Content (CMS)   | [Contentful](https://app.contentful.com/)                             |
+| Form Submission | [Hubspot](https://hubspot.com/)                                       |
+| Package-Manager | `yarn`                                                                |
+| Language        | `Typescript`                                                          |
 
 ## Getting Started
 
