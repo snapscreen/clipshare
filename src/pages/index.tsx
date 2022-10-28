@@ -26,9 +26,8 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
       >
         <div className="w-full sm:pr-96 lg:pr-96">
           <p className="lead">
-            SnapOdds technology helps sports media and sportsbook operators to see more viewers quickly
-            converting into bettors in live games. Bettors get an upgraded betting experience and it
-            boosts the ROI in the sports betting lifecycle.
+            ClipShare is enhancing Fan Experience by leveraging behaviours that are already commonplace.
+            ClipShare of course works on all common social media channels.
           </p>
           <div className="flex mt-8">
             <Button
