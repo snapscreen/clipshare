@@ -1,0 +1,29 @@
+.nav {
+  @apply flex items-center;
+  @apply transition duration-300 ease-in-out;
+}
+
+.nav + .nav {
+  @apply pt-4;
+}
+
+.nav > * {
+  @apply flex flex-col sm:flex-row;
+  @apply space-y-4 sm:space-x-4 sm:space-y-0;
+}
+
+.navElem {
+}
+
+.navLink {
+  @apply py-0.5;
+  @apply font-display font-semibold text-current;
+  @apply transition-all;
+  @apply hover:border-current;
+  @apply focus:bg-skin-focus focus:text-skin-fg-focus focus:outline-none;
+}
+
+.navLink[aria-current]:not([aria-current="false"]) {
+  @apply opacity-60;
+  @apply hover:opacity-100;
+}

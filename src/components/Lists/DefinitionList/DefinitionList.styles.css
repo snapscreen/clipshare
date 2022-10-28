@@ -1,0 +1,26 @@
+.definitionList {
+  @apply flex flex-col items-start;
+}
+
+.definitionList dt {
+  @apply text-lg truncate;
+  @apply order-2;
+}
+
+.definitionList dd {
+  @apply text-4xl font-semibold;
+  @apply order-1;
+}
+
+.definitionList.-inline {
+  @apply flex-row space-x-2;
+}
+
+.definitionList.-inline dt {
+  @apply text-lg;
+  @apply order-1;
+}
+
+.definitionList.-inline dd {
+  @apply text-lg font-normal;
+}

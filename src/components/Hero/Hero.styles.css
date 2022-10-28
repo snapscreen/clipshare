@@ -1,0 +1,51 @@
+.heroBackground {
+  @apply hidden sm:block;
+  @apply min-h-[70vh] min-w-full;
+  @apply absolute inset-0 z-0 overflow-hidden;
+  @apply bg-black;
+}
+
+.heroBackground > video {
+  @apply hidden sm:block;
+  @apply opacity-60;
+}
+
+.heroBackground + .hero {
+  @apply min-h-[70vh];
+  @apply sm:text-white;
+}
+
+.heroBackground + .hero h1,
+.heroBackground + .hero .lead,
+.heroBackground .hero > * {
+  @apply relative;
+  @apply z-10;
+  @apply text-left;
+  @apply ml-0;
+}
+
+.hero {
+  @apply relative z-10 overflow-visible;
+  @apply pb-16 sm:pt-16 sm:pb-16 lg:px-4;
+  @apply max-w-screen-xl;
+  @apply mx-auto;
+}
+
+.hero h1,
+.hero .lead,
+.hero > * {
+  @apply lg:text-center;
+}
+
+
+.hero h1,
+.hero .preTitle,
+.hero .lead {
+  @apply max-w-screen-md;
+  @apply mx-auto;
+}
+
+.hero .preTitle {
+  @apply uppercase font-semibold;
+  @apply mt-8;
+}

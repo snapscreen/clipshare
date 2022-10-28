@@ -1,0 +1,59 @@
+.headerWrapper {
+  @apply sticky top-0 z-20;
+  @apply bg-skin-header;
+  @apply border-b border-skin-base-muted;
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.header {
+  @apply max-w-screen-xl;
+  @apply mx-auto;
+  @apply flex items-center;
+  @apply p-2 md:p-4 md:py-3;
+}
+
+.header__left,
+.header__right {
+  @apply flex items-center;
+}
+
+.header__left {
+  @apply flex-col items-start;
+  @apply text-sm;
+}
+
+.header__center {
+  @apply flex flex-1 items-center;
+  @apply mx-auto ml-6;
+}
+.header__right {
+  @apply justify-end;
+}
+.header__right > * {
+  @apply ml-2;
+}
+
+.brand {
+  @apply h-12;
+  @apply border-transparent hover:border-transparent;
+  @apply focus:bg-transparent focus:outline-none focus:ring-2 focus:ring-skin-focus;
+}
+
+.header--mobile {
+  @apply lg:hidden;
+  @apply z-50 absolute top-0;
+  @apply inset-x-0;
+  @apply p-2;
+  @apply transition transform origin-top-right;
+}
+
+.header--mobile .brand {
+  @apply text-skin-fg;
+  @apply order-1;
+  @apply transition duration-300 ease-in-out;
+}
+
+.header .btn.primary {
+  @apply text-base text-skin-fg-focus;
+  @apply px-6 py-2;
+}

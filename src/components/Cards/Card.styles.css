@@ -1,0 +1,85 @@
+.card {
+  @apply flex flex-col h-full;
+  @apply p-4;
+  @apply transition-all;
+  @apply hover:bg-skin-base-flash hover:shadow-light hover:z-10;
+  @apply focus-within:bg-skin-base-flash focus-within:shadow-light focus-within:z-10;
+}
+
+.card p {
+  @apply my-2;
+}
+
+.card a {
+  @apply focus:bg-skin-focus focus:text-skin-fg-focus focus:outline-none;
+}
+
+.card__header {
+  @apply grid grid-cols-6 items-start gap-4;
+}
+
+.card__header .gatsby-image-wrapper {
+  @apply w-full;
+  @apply flex-none;
+  @apply col-span-1;
+}
+
+.card__header .cardTitle {
+  @apply flex-1;
+  @apply col-span-5;
+}
+
+.card__header .cardTitle h3 {
+  @apply my-2;
+  @apply font-semibold;
+  @apply leading-tight;
+}
+
+.card__header .cardTitle a {
+  @apply max-w-full;
+  @apply font-semibold;
+}
+
+.cardTitle .url {
+  @apply text-sm font-normal;
+  @apply mt-2;
+}
+
+.card__footer {
+  @apply flex justify-between;
+  @apply text-sm text-skin-fg-muted;
+  @apply mt-2 pt-2;
+  @apply space-x-4;
+  @apply border-t border-skin-base-muted;
+}
+
+.card__footer > * {
+  @apply whitespace-nowrap;
+}
+
+.card__footer a {
+  @apply text-ellipsis;
+  @apply overflow-hidden;
+  @apply ml-auto;
+}
+
+.card__body {
+  @apply flex-1;
+}
+
+.cardTitle {
+  @apply transition-all;
+}
+
+.cardCopy {
+  @apply text-skin-fg;
+  @apply mt-3
+}
+
+.cardTeaserCopy > * {
+  @apply hidden;
+}
+
+.cardTeaserCopy ul {
+  @apply block;
+}

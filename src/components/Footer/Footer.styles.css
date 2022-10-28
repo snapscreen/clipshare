@@ -1,0 +1,36 @@
+.footer {
+  @apply bg-skin-header;
+}
+
+.footer .nav > * {
+  @apply mt-4;
+}
+
+.footer .nav > * {
+  @apply flex sm:flex-col;
+  @apply space-y-4 space-x-0;
+}
+
+.footer .navLink {
+  @apply font-normal;
+}
+
+.nav__title {
+  @apply text-sm font-semibold tracking-wider uppercase;
+}
+
+.social {
+  @apply flex justify-center space-x-2;
+}
+
+.base {
+  @apply mt-12;
+  @apply pt-8;
+  @apply border-t border-skin-base-muted;
+  @apply text-center;
+}
+
+.baseCopy {
+  @apply text-sm text-skin-fg-muted;
+  @apply my-3;
+}

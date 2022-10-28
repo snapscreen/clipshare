@@ -1,0 +1,9 @@
+.badge {
+  @apply inline-block;
+  @apply w-auto h-10;
+  @apply m-2 p-0;
+}
+
+.badge img {
+  @apply h-full;
+}
