@@ -16,14 +16,14 @@ var QRCode = require("qrcode.react");
 const TryNow: React.FC<PageProps> = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
 
-  let url = "https://snapodds.onelink.me/rx4N/de77d92a";
+  let url = "https://nba.snapscreen.com/";
 
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="See how it works" />
       <Hero
-        title="Try and experience SnapOdds yourself!"
-        lead="We developed a demo app and mobile website so you can see how SnapOdds works. Snap the demo game video below on this page."
+        title="Try and experience ClipShare yourself!"
+        lead="We developed a demo app and mobile website so you can see how ClipShare works. Snap the demo game video below on this page."
       ></Hero>
       <Container>
         <ol className="relative mb-8 prose prose-lg lg:prose-xl mx-auto space-y-16 text-center">
@@ -46,9 +46,9 @@ const TryNow: React.FC<PageProps> = ({ data, location }) => {
               <a
                 target="_blank"
                 className="text-current underline"
-                href="https://demo.snapodds.com/"
+                href="https://nba.snapscreen.com"
               >
-                https://demo.snapodds.com
+                https://nba.snapscreen.com
               </a>
               <br /> – or – <br />
               For the best experience download our demo app for iOS or Android.
@@ -69,10 +69,9 @@ const TryNow: React.FC<PageProps> = ({ data, location }) => {
               style={{ paddingBottom: "56.25%" }}
             >
               <iframe
-                src="https://player.vimeo.com/video/682935258?h=96805b468f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                src="https://www.youtube.com/embed/Aw3xFO1wdJ4"
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
-                title="SnapOdds-demo-game.mp4"
                 allowFullScreen
                 className="absolute top-0 left-0 w-full h-full"
               ></iframe>
@@ -86,7 +85,7 @@ const TryNow: React.FC<PageProps> = ({ data, location }) => {
               3. Snap the game with our demo app.
             </h2>
             <p className="lead font-bold">
-              SnapOdds works for live games on TV!
+              ClipShare works for live games on TV!
             </p>
             <p>
               <a
