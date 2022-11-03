@@ -95,7 +95,9 @@ export const Header: React.FC<EmptyProps> = () => {
             </div>
             <div className="py-6 px-4 space-y-6 divide-y">
               <Nav links={leftNav} />
+              {/*
               <Nav links={rightNav} />
+              */}
             </div>
             <div className="py-6 px-4">
               <Button
