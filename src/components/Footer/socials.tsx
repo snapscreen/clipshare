@@ -51,7 +51,7 @@ export const Socials: React.FC<EmptyProps> = () => {
         <Button
           as="externalLink"
           styleType="icon"
-          href="https://github.com/snapscreen/"
+          href="https://github.com/snpscrn/"
         >
           <svg className="h-10 w-10" viewBox="0 0 1024 1024" aria-hidden="true">
             <title>Follow us on Github</title>
