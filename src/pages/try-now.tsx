@@ -50,12 +50,7 @@ const TryNow: React.FC<PageProps> = ({ data, location }) => {
               >
                 https://nba.snapscreen.com
               </a>
-              <br /> – or – <br />
-              For the best experience download our demo app for iOS or Android.
             </p>
-            <div className="flex justify-center">
-              <DownloadBadge />
-            </div>
             <div className="flex justify-center mt-8" aria-hidden="true">
               <span className="flex h-24 w-0.5 bg-skin-fg" aria-hidden="true" />
             </div>
@@ -86,14 +81,6 @@ const TryNow: React.FC<PageProps> = ({ data, location }) => {
             </h2>
             <p className="lead font-bold">
               ClipShare works for live games on TV!
-            </p>
-            <p>
-              <a
-                href="https://demo.snapodds.com/sport/events/upcoming"
-                target="_blank"
-              >
-                <small>See the list of upcoming sports games.</small>
-              </a>
             </p>
             <div className="flex justify-center mt-8" aria-hidden="true">
               <span className="flex h-24 w-0.5 bg-skin-fg" aria-hidden="true" />

@@ -14,14 +14,14 @@ import {
 
 const Home: React.FC<PageProps> = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
-  let sportsBar = "sportsbar.jpg";
+  let heroImg = "hero.jpg";
 
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="We make TV socially shareable and monetizable." />
       <Hero
         title="We make TV socially shareable and monetizable."
-        img={sportsBar}
+        img={heroImg}
       >
         <div className="w-full sm:pr-96 lg:pr-96">
           <p className="lead">
@@ -43,14 +43,6 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
             <DefinitionList term="Accuracy" definition="100%" />
             <DefinitionList term="Sports leagues" definition="All major" />
           </div>
-        </div>
-        <div className="hidden mx-auto sm:block sm:w-1/2 lg:w-1/3 sm:absolute right-0 -bottom-8">
-          <StaticImage
-            src="../images/iphone.png"
-            alt="Snap TV"
-            placeholder="blurred"
-            layout="fullWidth"
-          />
         </div>
       </Hero>
       {/*
