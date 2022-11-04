@@ -64,7 +64,7 @@ export const Logo: React.FC<LogoProps> = ({
       </span>
       <span className="sr-only">SnapOdds</span>
     </Button>
-    {!icon && <p className="text-sm mx-2">ClipShare, a product of Snapscreen.</p>}
+    {!icon && <p className="text-xs sm:text-sm m-0 ml-2">ClipShare, a product of Snapscreen.</p>}
     </>
   );
 };
