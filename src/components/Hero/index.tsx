@@ -45,10 +45,12 @@ export const Hero: React.FC<HeroProps> = ({
         </div>
       )}
       <div className="hero prose prose-lg lg:prose-xl">
-        <img
-          className="sm:hidden overflow-hidden bg-cover"
-          src={img} alt="Hero"
-        />
+        {!img ? null : (
+          <img
+            className="sm:hidden overflow-hidden bg-cover"
+            src={img} alt="Hero"
+          />
+        )}
         <Container>
           <section>
             <div className="preTitle">{preTitle}</div>
