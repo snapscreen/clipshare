@@ -7,20 +7,7 @@ import { Socials } from "./socials";
 import "./Footer.styles.css";
 
 const navigation = {
-  support: [
-    { name: "How it works", to: "/how-it-works" },
-    {
-      name: "Documentation",
-      to: "https://docs.snapodds.com/",
-      externalLink: true,
-    },
-    {
-      name: "Developers",
-      to: "/developers",
-    },
-  ],
   company: [
-    { name: "FAQs", to: "/faq" },
     { name: "Newsroom", to: "/news" },
     { name: "Contact", to: "/contact" },
   ],
@@ -52,10 +39,6 @@ export const Footer: React.FC<EmptyProps> = () => {
               <Logo className="brand p-0" />
             </div>
             <div className="mt-12 grid grid-cols-3 gap-8 xl:mt-0 xl:col-span-2">
-              <div>
-                <h3 className="nav__title">Support</h3>
-                <Nav links={support} />
-              </div>
               <div>
                 <h3 className="nav__title">Company</h3>
                 <Nav links={company} />

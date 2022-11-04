@@ -10,7 +10,6 @@ import {
   Seo,
   SupportedBy,
   DefinitionList,
-  LogoCloud,
 } from "@/components";
 
 const Home: React.FC<PageProps> = ({ data, location }) => {

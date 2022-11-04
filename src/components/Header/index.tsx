@@ -8,9 +8,8 @@ import "./Header.styles.css";
 
 const navigation = {
   leftNav: [
-    { name: "Product", to: "/product" },
-    { name: "Try now", to: "/try-now" },
     { name: "How it works", to: "/how-it-works" },
+    { name: "Try now", to: "/try-now" },
     { name: "Newsroom", to: "/news" },
     { name: "Contact", to: "/contact" },
   ],
