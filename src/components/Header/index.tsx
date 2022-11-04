@@ -8,17 +8,13 @@ import "./Header.styles.css";
 
 const navigation = {
   leftNav: [
+    { name: "Product", to: "/product" },
     { name: "Try now", to: "/try-now" },
     { name: "How it works", to: "/how-it-works" },
     { name: "Newsroom", to: "/news" },
     { name: "Contact", to: "/contact" },
   ],
-  rightNav: [
-    {
-      name: "Developers",
-      to: "/developers",
-    },
-  ],
+  rightNav: [],
 };
 
 export const Header: React.FC<EmptyProps> = () => {
@@ -95,9 +91,7 @@ export const Header: React.FC<EmptyProps> = () => {
             </div>
             <div className="py-6 px-4 space-y-6 divide-y">
               <Nav links={leftNav} />
-              {/*
               <Nav links={rightNav} />
-              */}
             </div>
             <div className="py-6 px-4">
               <Button
