@@ -54,7 +54,9 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
           />
         </div>
       </Hero>
+      {/*
       <LogoCloud />
+      */}
       <Container>
         <SupportedBy />
       </Container>
