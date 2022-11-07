@@ -72,16 +72,13 @@ const TryNow: React.FC<PageProps> = ({ data, location }) => {
               ></iframe>
             </div>
             <p>
-              <small>The video above is only for demo reasons.</small>
+              <small>The video above is only for demo purposes only.</small>
             </p>
           </li>
           <li>
             <h2 className="text-center">
               3. Snap the game with our demo app.
             </h2>
-            <p className="lead font-bold">
-              ClipShare works for live games on TV!
-            </p>
             <div className="flex justify-center mt-8" aria-hidden="true">
               <span className="flex h-24 w-0.5 bg-skin-fg" aria-hidden="true" />
             </div>
