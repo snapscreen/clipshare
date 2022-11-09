@@ -8,7 +8,6 @@ import "./Footer.styles.css";
 
 const navigation = {
   company: [
-    { name: "Newsroom", to: "/news" },
     { name: "Contact", to: "/contact" },
   ],
   legal: [

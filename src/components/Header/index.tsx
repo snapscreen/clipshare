@@ -10,7 +10,6 @@ const navigation = {
   leftNav: [
     { name: "How it works", to: "/how-it-works" },
     { name: "Try now", to: "/try-now" },
-    { name: "Newsroom", to: "/news" },
     { name: "Contact", to: "/contact" },
   ],
   rightNav: [],
