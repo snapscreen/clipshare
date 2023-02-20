@@ -9,7 +9,7 @@ export const NewsLinkList: React.FC<EmptyProps> = () => {
       query={graphql`
         query {
           allContentfulPressCoverage(
-            filter: { category: { eq: "ClipShare" } }
+            filter: { category: {in: ["ClipShare", "Corporate"]} }
             sort: { order: DESC, fields: publishDate }
           ) {
             edges {
