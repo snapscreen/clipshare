@@ -13,7 +13,12 @@ const navigation = {
     { name: "Newsroom", to: "/news" },
     { name: "Contact", to: "/contact" },
   ],
-  rightNav: [],
+  rightNav: [
+    {
+      name: "Developers",
+      to: "/developers",
+    },
+  ],
 };
 
 export const Header: React.FC<EmptyProps> = () => {
@@ -30,7 +35,7 @@ export const Header: React.FC<EmptyProps> = () => {
   }, [top]);
 
   return (
-    <Popover className={`headerWrapper ${!top && "sticky"}`}>
+    <Popover className={`headerWrapper ${!top && "isSticky"}`}>
       <header className="header">
         <div className="header__left">
           {top ? <Logo className="brand" /> : <Logo icon className="brand" />}

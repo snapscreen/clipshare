@@ -7,6 +7,7 @@ import {
   Container,
   Hero,
   Seo,
+  DownloadBadge,
 } from "@/components";
 
 var QRCode = require("qrcode.react");
@@ -18,7 +19,9 @@ const TryNow: React.FC<PageProps> = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="See how it works" />
+      <Seo
+        title="See how it works"
+      />
       <Hero
         title="Try and experience ClipShare yourself!"
         lead="We developed a demo app and mobile website so you can see how ClipShare works. Snap the demo game video below on this page."
@@ -48,7 +51,12 @@ const TryNow: React.FC<PageProps> = ({ data, location }) => {
               >
                 https://nba.snapscreen.com
               </a>
+              <br /> – or – <br />
+              For the best experience download our demo app for iOS.
             </p>
+            <div className="flex justify-center">
+              <DownloadBadge />
+            </div>
             <div className="flex justify-center mt-8" aria-hidden="true">
               <span className="flex h-24 w-0.5 bg-skin-fg" aria-hidden="true" />
             </div>

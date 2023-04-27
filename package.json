@@ -1,7 +1,7 @@
 {
   "name": "ClipShare",
   "description": "ClipShare website",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://snapscreen.com",
   "repository": {
     "type": "git",
@@ -12,11 +12,6 @@
   },
   "author": "Matthias Grieder <matthias@snapscreen.com>",
   "license": "MIT",
-  "keywords": [
-    "brand",
-    "design",
-    "guide"
-  ],
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby clean && gatsby develop",

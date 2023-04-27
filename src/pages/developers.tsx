@@ -9,23 +9,16 @@ const ressources = [
     framework: "iOS",
     type: "mobile",
     description:
-      "Integrate SnapOdds with your native iOS app for Apple iPhone or iPad.",
-    link: "https://docs.snapodds.com/docs/mobile-sdk/ios",
-    gitLink: "https://github.com/snapodds/sdk-ios",
+      "Integrate ClipShare with your native iOS app for Apple iPhone or iPad.",
+    link: "https://docs.snapodds.com/clipshare-sdk-docs/mobile-sdk/ios",
+    gitLink: "https://github.com/clipshare/clipshare-sdk-ios",
   },
   {
     framework: "Android",
     type: "mobile",
     description: "Integrate SnapOdds with your native Android app.",
-    link: "https://docs.snapodds.com/docs/mobile-sdk/android",
-    gitLink: "https://github.com/snapodds/sdk-android",
-  },
-  {
-    framework: "Javascript",
-    type: "frontend",
-    description: "Integrate SnapOdds with any website.",
-    link: "https://docs.snapodds.com/docs/documentation/js-sdk-documentation",
-    gitLink: "https://github.com/snapodds/sdk-js",
+    link: "https://docs.snapodds.com/clipshare-sdk-docs/mobile-sdk/android",
+    gitLink: "https://github.com/clipshare/clipshare-sdk-android",
   },
 ];
 
@@ -42,14 +35,14 @@ const Products: React.FC<PageProps> = ({ data, location }) => {
         <div className="mt-8 flex flex-col justify-center items-center sm:flex-row">
           <Button
             as="externalLink"
-            href="http://github.com/snapodds"
+            href="https://github.com/clipshare"
             styleType="ghost"
           >
             Github page
           </Button>
           <Button
             as="externalLink"
-            href="https://docs.snapodds.com/docs/"
+            href="https://docs.snapodds.com/clipshare-sdk-docs/"
             styleType="primary"
             className="mt-4 sm:mt-0 sm:ml-8"
           >
@@ -59,7 +52,7 @@ const Products: React.FC<PageProps> = ({ data, location }) => {
       </Hero>
       <Container>
         <h2 className="text-4xl text-center my-8">Framework SDKs</h2>
-        <div className="grid grid-cols-1 gap-4 mb-4 mx-auto sm:mb-8 sm:gap-8 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 mb-4 mx-auto sm:mb-8 sm:gap-8 lg:grid-cols-2">
           {ressources.map((ressource, key) => (
             <div
               key={key}

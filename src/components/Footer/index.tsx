@@ -7,6 +7,18 @@ import { Socials } from "./socials";
 import "./Footer.styles.css";
 
 const navigation = {
+  support: [
+    { name: "How it works", to: "/how-it-works" },
+    {
+      name: "Documentation",
+      to: "https://docs.snapodds.com/clipshare-sdk-docs/",
+      externalLink: true,
+    },
+    {
+      name: "Developers",
+      to: "/developers",
+    },
+  ],
   company: [
     { name: "Newsroom", to: "/news" },
     { name: "Contact", to: "/contact" },
@@ -42,6 +54,12 @@ export const Footer: React.FC<EmptyProps> = () => {
               <div>
                 <h3 className="nav__title">Company</h3>
                 <Nav links={company} />
+              </div>
+              <div className="md:grid md:grid-cols-2 md:gap-8">
+                <div className="mt-12 md:mt-0">
+                  <h3 className="nav__title">Support</h3>
+                  <Nav links={support} />
+                </div>
               </div>
               <div>
                 <h3 className="nav__title">Legal</h3>
