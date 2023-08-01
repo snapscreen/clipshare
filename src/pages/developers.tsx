@@ -16,9 +16,16 @@ const ressources = [
   {
     framework: "Android",
     type: "mobile",
-    description: "Integrate SnapOdds with your native Android app.",
+    description: "Integrate ClipShare with your native Android app.",
     link: "https://docs.snapodds.com/clipshare-sdk-docs/mobile-sdk/android",
     gitLink: "https://github.com/clipshare/clipshare-sdk-android",
+  },
+  {
+    framework: "Javascript",
+    type: "frontend",
+    description: "Integrate ClipShare with any website.",
+    link: "https://docs.snapodds.com/clipshare-sdk-docs/web-sdk/javascript",
+    gitLink: "https://github.com/clipshare/clipshare-sdk-js-sample",
   },
 ];
 
