@@ -38,11 +38,6 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
               How it works
             </Button>
           </div>
-          <div className="mt-8 text-left gap-4 grid grid-cols-2 lg:grid-cols-3 max-w-lg">
-            <DefinitionList term="Response time" definition="100ms" />
-            <DefinitionList term="Accuracy" definition="100%" />
-            <DefinitionList term="Sports leagues" definition="All major" />
-          </div>
         </div>
       </Hero>
       {/*
