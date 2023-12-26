@@ -8,7 +8,10 @@ const HowItWorks: React.FC<PageProps> = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="How SnapOdds works" />
+      <div className="backdrop-blur-lg fixed inset-0 flex z-20 h-screen top-20">
+        <h1 className="text-center mx-auto mt-24 font-bold text-4xl max-w-lg">Sorry, our demo is currently in maintainance and offline.</h1>
+      </div>
+      <Seo title="How ClipShare works" />
       <Hero
         title="ClipShare engages your fans and drives revenue."
         lead="ClipShare is a component (SDK) that gets integrated into media apps and websites. Additionally, we offer turn-key white-label solutions if no integration is desired or for faster time to market."

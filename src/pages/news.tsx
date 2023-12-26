@@ -31,6 +31,24 @@ const News: React.FC<PageProps> = ({ data, location }) => {
           </section>
           <section className="md:col-span-5">
             <div className="prose prose-lg sm:p-4">
+              <h2>ClipShare Brand Assets</h2>
+              <div className="py-2">
+                <Button
+                  as="externalLink"
+                  styleType="primary"
+                  href="https://github.com/snapscreen/clipshare/raw/main/static/ClipShare-Logo-Kit.zip"
+                >
+                  <span>Get Logo Kit</span>
+                  <DownloadIcon className="w-6 h-6" />
+                </Button>
+                <p>
+                  SnapOdds logo is composed of a clean, modern logotype and
+                  viewfinder borders that represents our technology. The
+                  standard color is SnapOdds is teal (#2dd4bf) with white or
+                  black being acceptable on dark or light backgrounds. Please
+                  don’t alter the logo in any way.
+                </p>
+              </div>
               <h2>About Snapscreen, Inc.</h2>
               <p className="py-2">
                 Based in New York with offices in Austria and Australia,
