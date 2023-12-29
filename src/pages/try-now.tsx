@@ -22,9 +22,6 @@ const TryNow: React.FC<PageProps> = ({ data, location }) => {
       <Seo
         title="See how it works"
       />
-      <div className="backdrop-blur-lg fixed inset-0 flex z-20 h-screen top-20">
-        <h1 className="text-center mx-auto mt-24 font-bold text-4xl max-w-lg">Sorry, our demo is currently in maintainance and offline.</h1>
-      </div>
       <Hero
         title="Try and experience ClipShare yourself!"
         lead="We developed a demo app and mobile website so you can see how ClipShare works. Snap the demo game video below on this page."
