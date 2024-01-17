@@ -8,9 +8,11 @@ const HowItWorks: React.FC<PageProps> = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
+      {/*
       <div className="backdrop-blur-lg fixed inset-0 flex z-20 h-screen top-20">
         <h1 className="text-center mx-auto mt-24 font-bold text-4xl max-w-lg">Sorry, our demo is currently in maintainance and offline.</h1>
       </div>
+      */}
       <Seo title="How ClipShare works" />
       <Hero
         title="ClipShare engages your fans and drives revenue."
